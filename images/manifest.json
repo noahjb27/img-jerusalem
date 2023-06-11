@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 4032,
+    "id" : "https://noahjb27.github.io/img-jerusalem/images/jerusalem_jewish_quarter_roman_columns/canvas/",
+    "label" : {
+      "none" : [ "jerusalem_jewish_quarter_roman_columns" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://noahjb27.github.io/img-jerusalem/images/jerusalem_jewish_quarter_roman_columns/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://noahjb27.github.io/img-jerusalem/images/jerusalem_jewish_quarter_roman_columns/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 126,
+              "height" : 95
+            }, {
+              "width" : 252,
+              "height" : 189
+            }, {
+              "width" : 504,
+              "height" : 378
+            }, {
+              "width" : 1008,
+              "height" : 756
+            }, {
+              "width" : 2016,
+              "height" : 1512
+            }, {
+              "width" : 4032,
+              "height" : 3024
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4032,
+            "@id" : "https://noahjb27.github.io/img-jerusalem/images/jerusalem_jewish_quarter_roman_columns",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3024
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4032,
+          "id" : "https://noahjb27.github.io/img-jerusalem/images/jerusalem_jewish_quarter_roman_columns/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 3024
+        },
+        "target" : "https://noahjb27.github.io/img-jerusalem/images/jerusalem_jewish_quarter_roman_columns/canvas/"
+      } ]
+    } ],
+    "height" : 3024
+  }, {
     "width" : 3024,
     "id" : "https://noahjb27.github.io/img-jerusalem/images/jerusalem_lutheran_church/canvas/",
     "label" : {
