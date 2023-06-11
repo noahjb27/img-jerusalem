@@ -1,0 +1,121 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://noahjb27.github.io/img-jerusalem/manifests/historical-buildings-photography.json",
+  "@type" : "sc:Manifest",
+  "label" : "Historical Buildings Photographs",
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "label" : "Default Sequence",
+    "canvases" : [ {
+      "@type" : "sc:Canvas",
+      "label" : "Armenian Church",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://noahjb27.github.io/img-jerusalem/images/armenian_church",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "height" : 3024,
+            "width" : 4032,
+            "sizes" : [ {
+              "width" : 126,
+              "height" : 95
+            }, {
+              "width" : 252,
+              "height" : 189
+            }, {
+              "width" : 504,
+              "height" : 378
+            }, {
+              "width" : 1008,
+              "height" : 756
+            }, {
+              "width" : 2016,
+              "height" : 1512
+            }, {
+              "width" : 4032,
+              "height" : 3024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "tiles" : [ {
+              "width" : 1024,
+              "height" : 1024,
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ]
+            } ]
+          }
+        },
+        "on" : "https://example.com/manifest/canvas/1"
+      } ],
+      "annotations" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "oa:description",
+        "resource" : {
+          "@type" : "cnt:ContentAsText",
+          "format" : "text/plain",
+          "chars" : "This is the description for the Armenian Church."
+        }
+      } ]
+    }, {
+      "@type" : "sc:Canvas",
+      "label" : "Dome of the Rock",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://noahjb27.github.io/img-jerusalem/images/Dome_of_the_Rock",
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "height" : 3024,
+            "width" : 4032,
+            "sizes" : [ {
+              "width" : 126,
+              "height" : 95
+            }, {
+              "width" : 252,
+              "height" : 189
+            }, {
+              "width" : 504,
+              "height" : 378
+            }, {
+              "width" : 1008,
+              "height" : 756
+            }, {
+              "width" : 2016,
+              "height" : 1512
+            }, {
+              "width" : 4032,
+              "height" : 3024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "tiles" : [ {
+              "width" : 1024,
+              "height" : 1024,
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ]
+            } ]
+          }
+        },
+        "on" : "https://example.com/manifest/canvas/2"
+      } ],
+      "annotations" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "oa:description",
+        "resource" : {
+          "@type" : "cnt:ContentAsText",
+          "format" : "text/plain",
+          "chars" : "This is the description for the Dome of the Rock."
+        }
+      } ]
+    } ]
+  } ]
+}
