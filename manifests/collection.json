@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://noahjb27.github.io/img-jerusalem/manifests/historical-buildings-photography.json",
     "label" : "Historical Buildings Photographs"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://noahjb27.github.io/img-jerusalem/manifests/historical-buildings-photography-manifest.json",
+    "label" : "Historical Buildings Photographs"
   } ]
 }
