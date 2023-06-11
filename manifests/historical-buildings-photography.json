@@ -3,6 +3,28 @@
   "@id" : "https://noahjb27.github.io/img-jerusalem/manifests/historical-buildings-photography.json",
   "@type" : "sc:Manifest",
   "label" : "Historical Buildings Photographs",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Jerusalem, 2023"
+    },
+    {
+      "label": "Location",
+      "value": "Jerusalem"
+    },
+    {
+      "label": "Photographer",
+      "value": "Noah Jefferson"
+    },
+    {
+      "label": "Date",
+      "value": "1.03.2023"
+    },
+    {
+      "label": "Description",
+      "value": "Photos taken during a visit to Jerusalem in early spring 2023."
+    }
+  ],
   "sequences" : [ {
     "@type" : "sc:Sequence",
     "label" : "Default Sequence",
